@@ -1,4 +1,4 @@
-# 南网在线日电量监控与提醒
+﻿# 南网在线日电量监控与提醒
 
 > 月度清单要等下个月？重点电表等不起。调南网在线（95598.csg.cn）已验证接口抓取绑定户号的每日用电量（T+3 发布），估算日电费落盘 Excel；日电量或日估算电费超阈值，飞书自动提醒。
 
@@ -27,7 +27,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/cctvgh/nanwang-daily-electricity-fetch.git
+git clone https://github.com/nanwang-daily-electricity-fetch.git
 cd nanwang-daily-electricity-fetch
 # 编辑 config.json：填入你的 token / custNumber / 户号清单 / 飞书 webhook
 python scripts/nw_daily_fetch.py            # 抓取本月（截至昨日）
@@ -49,8 +49,8 @@ python scripts/nw_daily_fetch.py 202609     # 指定月份
 
 本工具同时发布为「星辰超级智能体（TeleAgent）」技能 **`nanwang-daily-electricity-fetch`（南网在线日电量监控与提醒）**，技能市场安装后直接说"抓每日电费""绑定户号""防溺水电表监控"即可。
 
-配套技能：[`electricity-bill-analysis`](https://github.com/cctvgh/electricity-bill-analysis)（企业电费异常分析报告）负责月度深度分析。
+配套技能：[`electricity-bill-analysis`](https://github.com/electricity-bill-analysis)（企业电费异常分析报告）负责月度深度分析。
 
 ## License
 
-MIT © 2026 何汉锋
+MIT © 2026 Author
